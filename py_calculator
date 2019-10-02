@@ -14,5 +14,7 @@ def calculator():
         return num1 / num2
     elif oprt == '*':
         return num1 * num2
+    else:
+        return 0
 
 print(calculator())
