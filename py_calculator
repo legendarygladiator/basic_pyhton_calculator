@@ -1,0 +1,18 @@
+from math import *
+
+num1 = float(input("Enter the first number: "))
+oprt = input("Enter the operator: ")
+num2 = float(input("Enter the second number: "))
+
+def calculator():
+
+    if oprt == '+':
+        return num1 + num2
+    elif oprt == '-':
+        return num1 - num2
+    elif oprt == '/':
+        return num1 / num2
+    elif oprt == '*':
+        return num1 * num2
+
+print(calculator())
