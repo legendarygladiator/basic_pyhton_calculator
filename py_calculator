@@ -15,6 +15,6 @@ def calculator():
     elif oprt == '*':
         return num1 * num2
     else:
-        return 0
+        print("Invalid operator")
 
 print(calculator())
